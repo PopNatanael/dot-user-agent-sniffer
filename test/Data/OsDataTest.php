@@ -10,6 +10,8 @@ use PHPUnit\Framework\TestCase;
 
 class OsDataTest extends TestCase
 {
+    private OsData $subject;
+
     public function setUp(): void
     {
         $this->subject = new OsData();
