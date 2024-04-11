@@ -56,7 +56,7 @@ class DeviceServiceTest extends TestCase
         $this->assertNull($data->getOs()->getVersion());
         $this->assertNull($data->getOs()->getPlatform());
         $this->assertNull($data->getOs()->getFamily());
-        $this->assertFalse($data->isBot());
+        $this->assertTrue($data->isBot());
         $this->assertFalse($data->isMobile());
     }
 
