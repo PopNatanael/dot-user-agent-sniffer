@@ -46,17 +46,17 @@ When called with an `$userAgent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like 
         'isBot' => false,
         'isMobile' => true,
         'os' =>
-        Dot\UserAgentSniffer\Data\OsData::__set_state(array(
-        'name' => 'iOS',
-        'version' => '13.2',
-        'platform' => '',
+          Dot\UserAgentSniffer\Data\OsData::__set_state(array(
+            'name' => 'iOS',
+            'version' => '13.2',
+            'platform' => '',
         )),
         'client' =>
-        Dot\UserAgentSniffer\Data\ClientData::__set_state(array(
-        'type' => 'browser',
-        'name' => 'Chrome Mobile iOS',
-        'engine' => 'WebKit',
-        'version' => '78.0',
+          Dot\UserAgentSniffer\Data\ClientData::__set_state(array(
+            'type' => 'browser',
+            'name' => 'Chrome Mobile iOS',
+            'engine' => 'WebKit',
+            'version' => '78.0',
         )),
     ))
 
@@ -69,16 +69,16 @@ The above call can also be chained as `myMethod($userAgent)->getArrayCopy()`, to
         'isMobile' => true,
         'isBot' => false,
         'os' =>
-        array (
-        'name' => 'iOS',
-        'version' => '13.2',
-        'platform' => '',
+          array (
+            'name' => 'iOS',
+            'version' => '13.2',
+            'platform' => '',
         ),
         'client' =>
-        array (
-        'type' => 'browser',
-        'name' => 'Chrome Mobile iOS',
-        'engine' => 'WebKit',
-        'version' => '78.0',
+          array (
+            'type' => 'browser',
+            'name' => 'Chrome Mobile iOS',
+            'engine' => 'WebKit',
+            'version' => '78.0',
         ),
     )
